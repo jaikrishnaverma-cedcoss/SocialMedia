@@ -5,24 +5,17 @@ import { useState } from 'react';
 import React from 'react';
 import Home from './component/Home';
 
-// full name
-// email
-// username
-// password
-// mobile
-// city
-// country
-// pincode
-
 function App() {
   const [state,setState]=useState({sessionId:-1,Credentials:[]})
   const SignUpHandler=(obj)=>{
+    console.log("obj",obj)
+    console.log("p",state.Credentials)
     state.Credentials.push(obj)
-    // this.setState({Credentials:this.state.Credentials})
-    // console.log("p",state.Credentials)
+    // setState(state.Credentials)
+  
   }
   const LogOutHandler=()=>{
-    setState({sessionId:-1})
+    setState({...state,sessionId:-1})
   }
   const HandleSession=(ide)=>{
     
@@ -44,7 +37,7 @@ function App() {
       } else{
         return (
           <div className="App">
-    <Home sessionId={state.sessionId} LogOutHandler={LogOutHandler} userData={state.Credentials[state.sessionId]}/>
+    <Home sessionId={state.sessionId} LogOutHandler={LogOutHandler} userData={state.Credentials[state.sessionId]} data={state.Credentials}/>
             </div>
         )
 }

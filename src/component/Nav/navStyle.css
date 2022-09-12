@@ -1,0 +1,43 @@
+.App {
+    justify-content: flex-start !important;
+}
+
+.nav {
+    background-image: linear-gradient( 109.6deg, rgb(0, 188, 141) 11.2%, rgba(110,123,251,1) 91.1% );
+    height: 67px;
+}
+
+.searchbox {
+    height: 80% !important;
+    width: 48% !important;
+    border-radius: 10px !important;
+}
+
+.btn {
+    border-radius: 48px !important;
+    padding: 12px 15px !important;
+}
+
+i {
+    margin: 0px 10px;
+
+}
+
+.hamburger {
+    font-size: 22px;
+    color: white;
+}
+
+#gol {
+    width: 50px !important
+}
+
+#gajar {
+    width: 25px !important;
+}
+
+.searchbox input {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: black !important;
+}

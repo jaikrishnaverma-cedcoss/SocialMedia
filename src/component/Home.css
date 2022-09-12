@@ -1,0 +1,48 @@
+.banner2{
+    /* background-image: url('../../public/hunter_4-wallpaper-1366x768.jpg'); */
+    background-color: aliceblue;
+    height: 120px;
+    margin-top: 80px;
+    padding:30px
+}
+.banner2 img{
+    height:100px;
+    width:100px;
+
+    border-radius: 50%;
+    background-color: gray;
+    padding: 10px;
+}
+.banner2{
+    text-align: left;
+}
+.name{
+    text-align: left;
+    margin: 0%;
+}
+.banner2 p{
+margin: 0% !important;
+}
+.cards{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 1%;
+    height: 50vh;
+    overflow-y: scroll;
+}
+.option{
+    background-image: linear-gradient(to right, #141e30, #243b55);
+    border-radius: 16px;
+    color: white;
+    justify-content: space-between;
+    padding: 0% 5%;
+    margin: 3% 0%;
+}
+.border{
+    border-radius: 5px;
+    border:1px solid rgb(0, 70, 105)
+}
+.feeder{background-image: linear-gradient(to right, #434343 0%, black 100%);    border-radius: 5px;
+    padding: 10px 20px;
+}

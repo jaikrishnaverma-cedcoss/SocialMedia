@@ -125,11 +125,11 @@ class Login extends Component {
                       
                        <div className="row">
                         <div className="col w50">  <label>Email</label>
-                        <input onChange={this.ChangeEmail} value={this.state.tmpEmail}  placeholder="Enter Your Valid Email" className="btn btn-danger" type="text" />
+                        <input onChange={this.ChangeEmail} value={this.state.tmpEmail}  placeholder="Enter Your Valid Email" className="btn btn-danger" type="email" />
                        </div>
                         <div className="col w50">
                         <label>Contact</label>
-                        <input onChange={this.ChangeContact} value={this.state.tmpContact}  placeholder="Enter Contact No." className="btn btn-danger" type="text" />
+                        <input onChange={this.ChangeContact} value={this.state.tmpContact}  placeholder="Enter Contact No." className="btn btn-danger" type="number" />
                        
                         </div>
                        </div>
@@ -146,7 +146,7 @@ class Login extends Component {
                         </div>
                         <div className="col w33">
                         <label>Pin Code</label>
-                        <input onChange={this.ChangePinCode} value={this.state.tmpPinCode}  placeholder="Enter Area PinCode" className="btn btn-danger" type="text" />              
+                        <input onChange={this.ChangePinCode} value={this.state.tmpPinCode} type="number" placeholder="Enter Area PinCode" className="btn btn-danger"  />              
                          
                         </div>
                        </div>
